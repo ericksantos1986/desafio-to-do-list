@@ -1,0 +1,66 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightslategrey;
+    width: 600px;
+    margin: auto;
+}
+
+h1{
+color: rgb(9, 24, 39);
+margin: 30px 30px;
+}
+
+.input-button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#textInput{
+    margin-right: 8px;
+    height: 25px;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 7px;
+    width: 470px;
+    font-size: 16px;
+}
+
+button{
+    height: 32px;
+    font-size: 16px;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 7px;
+    width: 110px;
+}
+
+.list-item{
+    color: rgb(9, 24, 39);
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#list input{
+    height: 20px;
+    width: 20px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color: rgb(58, 58, 58);
+}
